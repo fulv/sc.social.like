@@ -11,7 +11,7 @@
     name="likes-providers"
     for="Products.CMFPlone.interfaces.IPloneSiteRoot"
     class=".likes.ProvidersControlPanel"
-    permission="cmf.ManagePortal"
+    permission="sc.social.like.manage"
     />
 
 </configure>

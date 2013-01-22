@@ -9,6 +9,12 @@
     <five:registerPackage package="." initialize=".initialize" />
 
     <include zcml:condition="have plone-4" package="Products.CMFCore" file="permissions.zcml" />
+
+    <permission
+        id="sc.social.like.manage"
+        title="Social Like: Manage Actions"
+        />
+
     <include package=".browser" />
     <include package=".controlpanel" />
 

@@ -7,6 +7,6 @@
      url_expr="string:${portal_url}/@@likes-providers"
      icon_expr="string:${portal_url}/++resource++sl_images/ico-sociallike.png"
      visible="True" i18n:attributes="title">
-    <permission>Manage portal</permission>
+    <permission>Social Like: Manage Actions</permission>
   </configlet>
 </object>
